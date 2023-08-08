@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    
 </head>
 <body>
-    <fieldset id="fieldset1">
-        <h2>Registration Form</h2>
+    <div id="div1">
+        <h1>Registration Form</h1>
+        
         <form onsubmit="return Submit()">
             <p>
                 <label for="name">Name</label>
@@ -33,11 +34,12 @@
             </p>
             <input type="submit" id="submit" value="Submit"/>
         </form>
-    </fieldset>
+    </div>
 
-    <fieldset id="fieldset2">
-        <h2>Entries</h2>
-        <table id="tableData">
+
+    <div id="div2">
+        <h1>Entries</h1>
+        <table id="datatable">
             <thead>
                 <th>Name</th>
                 <th>Email</th>
@@ -47,8 +49,14 @@
             </thead>
 
             <tbody>
+                <!-- rows to be added automatically -->
             </tbody>
         </table>
-    </fieldset>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
